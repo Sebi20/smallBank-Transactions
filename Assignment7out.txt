@@ -9,96 +9,19 @@ Account		Balance
 9876		56.89
 10235		50123.93
 
-i is an invalid input
-------------------
-3 is an invalid input
-------------------
-The account balance of 12345 is: 89.2
-------------------
-------------------
-78231 Account doesn't exist
-
-------------------
-------------------
-Transaction type: deposit
-Account number: 12345
-Account balance: 89.2
-Amount to Deposit: 792.5
-New balance: $881.70
-------------------
-Transaction type: deposit
-Account number: 34567
-Account balance: 34.89
-Amount to Deposit: 712.0
-New balance: $746.89
-------------------
-31243 is not found
-
-------------------
 Transaction Type: Withdrawal
-Account Number: 98765
-Current Balance: 89.45
-New Balance: $46.25
-------------------
-Transaction Type: Withdrawal
-Account Number: 10235
-Current Balance: 50123.93
-New Balance: $41202.39
-------------------
-Transaction Type: Withdrawal
-Account Number: 98765
-Current Balance: 46.25
-Amount to WithDraw: $98.32
-Error: Insufficient Funds Available
-------------------
-97143 is not found
-New Account Number: 21212
-Balance: $0
-
-------------------
-------------------
-New Account Number: 11111
-Balance: $0
-
-------------------
-------------------
-New Account Number: 33333
-Balance: $0
-
-------------------
-------------------
-12345 already exists
-
-------------------
-------------------
-Transaction type: deposit
-Account number: 11111
-Account balance: 0.0
-Amount to Deposit: 6700.43
-New balance: $6700.43
-------------------
-Transaction Type: Withdrawal
-Account Number: 33333
-Current Balance: 0.0
-New Balance: $93.40
-------------------
-Transaction Type: Withdrawal
-Account Number: 21212
-Current Balance: 0.0
-Amount to WithDraw: $43.2
-Error: Insufficient Funds Available
+Account Number: 12345
+Current Balance: 89.2
+New Balance: $69.20
 ------------------
 --------------------------
 Processed Bank Data Base
 --------------------------
 Account		Balance
-12345		881.7
+12345		69.2
 32156		8921.9
 67890		567.89
-98765		46.25
-34567		746.89
+98765		89.45
+34567		34.89
 9876		56.89
-10235		41202.39
-21212		0.0
-11111		6700.43
-33333		93.4
+10235		50123.93

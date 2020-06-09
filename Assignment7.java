@@ -1,11 +1,11 @@
-package Assignment7a;
+ package Assignment7a;
 
 import java.util.*;
 import java.io.*;
 
 public class Assignment7{
 	public static void main(String[] args) throws IOException{
-		PrintWriter output = new PrintWriter("/Users/sebiseb/eclipse-workspace/Assignments/src/Assignment7a/Assignment7.txt");
+		PrintWriter output = new PrintWriter("/Users/sebiseb/eclipse-workspace/Assignments/src/Assignment7a/Assignment7out.txt");
 		Scanner input = new Scanner(System.in);
 		
 		// The Arrays
@@ -15,7 +15,7 @@ public class Assignment7{
 		
 		//Declaring method into the main
 		int numAccts = readAccts(acctNum, balance, MAX_NUM);// The number of accounts being processed
-		output.println("Intial Bank Data Base");
+		output.println("Initial Bank Data Base");
 		output.println("-----------------------");
 		printAccts(acctNum, balance, numAccts, output);// Prints the accounts and balances
 		output.println("");
